@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/*Nav*/
+nav{
+	background-color: #770065;
+	color: #fff;
+	font-weight: 200;
+	font-size: 14px;
+	border-bottom: 2px solid #DACDCD;
+}
+nav a img{
+	height: 60px;
+	width: 200px;
+}
+nav ul li a{
+	color: #fff !important;
+	font-size: 16px;
+}
+nav ul li a:hover{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+}
+nav .social-icon ul li i{
+	
+	color: white;
+	text-align: center;
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid red;
+	border-radius: 50%;
+	margin: 5px 5px;
+
+}
+nav .dropdown-link a{
+	color: #000 !important;
+}
+nav .social-icon ul li i:hover{
+	background-color: red;
+}
+/*Nav*/
+
+/*title*/
+ .title{
+ 	background-image: url(../img/student.jpg);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+ 	height: 400px;
+ 	width: 100%;
+ }
+ .title p{
+ 	color: #0215A6;
+ 	font-size: 20px;
+ 	margin: 100px;
+ 	background-color: rgba(220, 224, 242, 0.45);
+ 	padding: 20px;
+ }
+/*title*/
+
+
+
+/*web works*/
+.web-works{
+	background-color: #F0E9E9;
+}
+.web-works ul li{
+	list-style-type: none;
+	margin: 0 auto;
+
+}
+.web-works ul li a{
+	margin: 0 auto;
+	font-size: 20px;
+	color: red;
+	font-weight: 400;
+
+}
+.web-works h1{
+	 	background-color: #F9F4F4;
+ 	letter-spacing: normal;
+ 	padding: 10px 0;
+ 	font-weight: 800;
+ 	font-size: 40px;
+}
+.web-works{}
+/*web works*/
+
+/*Ecommrce*/
+ .ecommerce .e-img{
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-size: cover;
+ 	height: 300px;
+ 	width: 90%;
+ 	box-shadow: 3px 3px 10px #B8B3B3;
+ 	margin: 15px;
+ } 
+ .ecommerce .e-img1{
+ 	background-image: url(../img/ecommerce1.png);
+ }
+  .ecommerce .e-img2{
+ 	background-image: url(../img/ecommerce2.png);
+ }
+  .ecommerce .e-img3{
+ 	background-image: url(../img/ecommerce3.png);
+ }
+   .ecommerce .e-img4{
+ 	background-image: url(../img/ecommerce4.png);
+ }
+   .ecommerce .e-img5{
+ 	background-image: url(../img/ecommerce5.png);
+ }
+   .ecommerce .e-img6{
+ 	background-image: url(../img/ecommerce6.png);
+ }
+ .ecommerce{}
+/*Ecommrce*/
+
+/*logo*/
+.logo h2{
+	font-size: 36px;
+	font-weight: 600;
+	color: #D32E02;
+}
+ .logo img{
+ 	height: auto;
+ 	width: 100%;
+ }
+ .logo h1{
+ 	background-color: #F9F4F4;
+ 	letter-spacing: normal;
+ 	padding: 10px 0;
+ 	font-weight: 800;
+ 	font-size: 40px;
+ }
+/*logo*/
+
+/*back-image*/
+ .back-image{
+ 	background-color: #DAC79F;
+
+ 	background-image: url(../img/wow.png);
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	background-attachment: fixed;
+ 	background-size: contain;
+ 	 	height: 400px;
+ 	width: 100%;
+ }
+ .back-image:hover{
+ 	background-color: #E3C4C4;
+ }
+ .back-image{}
+/*back-image*/
+
+
+
+
+
+
+
+
+.footer{
+	background-color: #222222;
+	color: white;
+}
+footer{
+	background-color: #0f0e0e;
+	color: white
+}

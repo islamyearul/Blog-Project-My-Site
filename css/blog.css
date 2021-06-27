@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/*Nav*/
+nav{
+	background-color: #770065;
+	color: #fff;
+	font-weight: 200;
+	font-size: 14px;
+	border-bottom: 2px solid #DACDCD;
+}
+nav a img{
+	height: 60px;
+	width: 200px;
+}
+nav ul li a{
+	color: #fff !important;
+	font-size: 16px;
+}
+nav ul li a:hover{
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+}
+nav .social-icon ul li i{
+	
+	color: white;
+	text-align: center;
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid red;
+	border-radius: 50%;
+	margin: 5px 5px;
+
+}
+nav .dropdown-link a{
+	color: #000 !important;
+}
+nav .social-icon ul li i:hover{
+	background-color: red;
+}
+/*Nav*/
+/*banner*/
+.banner{
+	background-color: #4318D0;
+}
+/*banner*/
+
+
+/*blog1*/
+.blog-1 img{
+	height: 250px;
+	width: 100%;
+	margin-bottom: 10px;
+	box-shadow: 3px 3px 10px #B8B3B3;
+}
+/*blog1*/
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+	background-color: #222222;
+	color: white;
+	clear: both;
+}
+footer{
+	background-color: #0f0e0e;
+	color: white
+}

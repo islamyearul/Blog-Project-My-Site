@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+/*Nav*/
+nav{
+	background-color: #770065;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 200;
+	border-bottom: 2px solid #DACDCD;
+}
+nav a img{
+	height: 60px;
+	width: 200px;
+}
+nav ul li a{
+	color: white;
+	font-size: 12px !important;
+}
+nav ul li a:hover{
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+}
+nav .social-icon ul li i{
+	
+	color: white;
+	text-align: center;
+	padding: 10px;
+	height: 40px;
+	width: 40px;
+	border: 1px solid red;
+	border-radius: 50%;
+	margin: 5px 5px;
+
+}
+nav .social-icon ul li i:hover{
+	background-color: red;
+}
+/*Nav*/
+/*<!-- Banner Section -->*/
+.banner{
+		height: 600px;
+		width: 100%;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0c24ae+0,a9497a+100 */
+	background: rgb(12,36,174); /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  rgba(12,36,174,1) 0%, rgba(169,73,122,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  rgba(12,36,174,1) 0%,rgba(169,73,122,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  rgba(12,36,174,1) 0%,rgba(169,73,122,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0c24ae', endColorstr='#a9497a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	}
+	.banner a{
+			padding: 10px 30px;	
+			font-size: 20px;
+			color: #fff;
+			text-decoration: none;	
+	}
+	.banner button:hover{
+		background: #F57713;
+		color: white;
+		box-shadow: 0 5px 15px #696666;
+
+	}
+	.banner p{
+		color: #C7C3C3;
+		font-size: 12px;
+	}
+	@-webkit-keyframes pulse-shrink-on-hover {
+	  to {
+	    -webkit-transform: scale(0.9);
+	    transform: scale(0.9);
+	  }
+	}
+	@keyframes pulse-shrink-on-hover {
+	  to {
+	    -webkit-transform: scale(0.9);
+	    transform: scale(0.9);
+	  }
+	}
+	.pulse-shrink-on-hover {
+	  display: inline-block;
+	  vertical-align: middle;
+	  -webkit-transform: perspective(1px) translateZ(0);
+	  transform: perspective(1px) translateZ(0);
+	  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+	}
+	.pulse-shrink-on-hover:hover, .pulse-shrink-on-hover:focus, .pulse-shrink-on-hover:active {
+	  -webkit-animation-name: pulse-shrink-on-hover;
+	  animation-name: pulse-shrink-on-hover;
+	  -webkit-animation-duration: 0.3s;
+	  animation-duration: 0.3s;
+	  -webkit-animation-timing-function: linear;
+	  animation-timing-function: linear;
+	  -webkit-animation-iteration-count: infinite;
+	  animation-iteration-count: infinite;
+	  -webkit-animation-direction: alternate;
+	  animation-direction: alternate;
+}
+
+/*<!-- Banner Section -->*/
